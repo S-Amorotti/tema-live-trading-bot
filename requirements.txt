@@ -1,0 +1,4 @@
+alpaca-py
+pandas
+numpy
+python-dotenv
