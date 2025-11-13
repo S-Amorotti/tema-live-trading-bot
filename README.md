@@ -56,21 +56,6 @@ APCA_API_SECRET_KEY=you_api_passkey
 ```
 python main.py
 ```
-## Repository Structure
-.
-├── main.py                 # Live execution loop
-├── strategy.py             # Signal generation (TEMA, ADX, CMO, ATR)
-├── indicators.py           # Indicator implementations
-├── data.py                 # Fetches 1H and 4H historical data
-├── broker.py               # Order submission, sizing, TP/SL
-├── risk.py                 # Daily loss guard
-├── state.py                # Persistent state (last bar, day equity)
-├── logger.py               # CSV + event logging
-├── config.py               # Tunable parameters
-├── requirements.txt
-├── README.md
-├── logs/                   # Runtime logs (gitignored)
-└── state/                  # Runtime state (gitignored)
 
 ## 🔒 Privacy & Security
 
